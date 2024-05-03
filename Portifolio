@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e3e3; 
+        }
+        header {
+            background-color: #f5b7b7; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8d7da;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #f9eded;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+            color: #555; 
+        }
+        footer {
+            background-color: #f5b7b7;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio de Isabelle</h1>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <section>
+        <h2>Bem-vindo ao Meu Portfólio</h2>
+        <p>Este é um exemplo de site HTML que demonstra minhas habilidades básicas em desenvolvimento web. Aqui você pode encontrar informações sobre mim, meus projetos e como entrar em contato comigo.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Portfólio HTML. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
